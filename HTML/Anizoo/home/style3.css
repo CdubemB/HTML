@@ -1,0 +1,214 @@
+.bg-modal{
+    width: 100%;
+    height: 600%;
+    top: 100%;
+    background-color: rgb(0, 0, 0,  0.6);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.bg-modal h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2db9b4;
+    position: relative;
+    padding-bottom:  300px;
+    padding-left: 310px;
+    font-size: 28px;
+}
+
+.bg-modal p{
+    position: sticky;
+    padding-top: 150px;
+    font-size: 18px;
+}
+.bg-modal img{
+    position: absolute;
+}
+.modal-content{
+    width: 600px;
+    height: 450px;
+    background-color: lightgrey;
+    border-radius: 4px;
+    position: relative;
+    top: -40%;
+
+}
+
+.bg-modal .srcbra{
+    width: 50%;
+    padding: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px; 
+    border-right: 0;
+    display: none;
+}
+ .bg-modal .srcbtna{
+    width: 10%;
+    padding: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left: 0;
+    display: none;
+    
+}
+.close{
+    position: absolute;
+    top: 0;
+    left: 95%;
+    font-size: 40px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f2; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 256); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 256, 0.5); 
+}
+.sbtitle{
+    position: absolute;
+    color: #fff;
+    top: 55%;
+    left: 35%;
+}
+
+
+@keyframes slide {
+    0%{
+        background-image: url("desert.jpg");
+        width: 600px;
+        height: 350px;
+    }
+
+    20%{
+        width: 600px;
+        height: 350px;    
+        background-image: url("rainforest.jpg");
+    }
+
+    40%{
+        width: 600px;
+        height: 350px; 
+        background:url("scorpian.jpg");
+        background-repeat: no-repeat;
+    }
+
+    60%{
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 350px;
+        background-image: url("penguin.jpg");
+    }
+
+    80%{
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 350px;
+        background-image: url("crocodile.png");
+    }
+
+    100%{
+        width: 600px;
+        height: 350px;
+        background-image: url("desert.jpg");
+    }
+
+}
+
+.© h6{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none
+    
+}
+
+.©{
+   text-decoration: none;
+   text-decoration-line: none;
+}
+/*MAKING THE LOAD SCREEN*/
+.preload{
+    width: 100%;
+    height: 100%;
+    background: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logop{
+    width: 300px;
+    height: 300px;
+    margin: 150px auto 50px auto;
+    font-size: 50px;
+    text-shadow: -1px 2px 2px #000;
+    text-align: center;
+    color: rgb(255, 100, 0);
+}
+.loader-frame{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    position: relative;
+}
+.loader1, .loader2{
+    position: absolute;
+    border: 5px solid transparent;
+    border-radius: 50%;
+}
+
+.loader1{
+    width: 70px;
+    height: 70px;
+    border-top: 5px solid rgb(255, 100, 0);
+    border-bottom: 5px solid rgb(255, 100, 0);
+    top: 49%;
+    left: 49.5%;
+    animation: clockwisespin 2s linear 3;
+}
+
+.loader2{
+    width: 60px;
+    height: 60px;
+    border-right: 5px solid darkturquoise;
+    border-left: 5px solid darkturquoise;
+    top: 50%;
+    left: 50%;
+    animation: anticlockwisespin 2s linear 3 ;
+}
+.bg-icon{
+    width: 200px;
+    height: 200px;
+}
+@keyframes clockwisespin {
+    from {transform: rotate(0deg);}
+    to   {transform: rotate(360deg);}
+}
+
+@keyframes anticlockwisespin {
+    from {transform: rotate(0deg);}
+    to   {transform: rotate(-360deg);}
+}
+@keyframes fadeout{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}

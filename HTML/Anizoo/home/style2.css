@@ -1,0 +1,178 @@
+.box1{
+	width: 40%;
+	text-align: right;
+	position: absolute;
+	border: solid green 5px;
+    float: right;
+    top: 350%;
+    background-color: lightyellow;
+}
+.box1 h2{
+	text-align: left;
+}
+.box2{
+	width: 40%;
+	text-align: right;
+	border: solid red 5px;
+    position: absolute;
+
+}
+/* Making the buttons and options */
+.optionbox1{
+    top: 90%;
+    width: 350px;
+    margin-left: 20%;
+    position: sticky;
+}
+.optionbox1 p{
+    width: 100%;
+    font-size: 15px;
+    color: #a93d77;
+}
+.btn1{
+    margin-left: 25px;
+    padding: 22px;
+    width: 66%;
+    border-radius: 9px;
+    background: rgb(0, 255, 0, 0.3);
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.btn1:hover {
+    background: rgb(0, 255, 0, 0.7);
+    cursor: pointer;
+}
+
+.optionbox2{
+    top:90%;
+    width: 350px;
+    margin-left: 60%;
+    position: sticky;
+}
+.optionbox2 p{
+    width: 100%;
+    font-size: 15px;
+    color: #73a3af;
+}
+.btn2{
+    margin-left: 25px;
+    padding: 22px;
+    width: 66%;
+    border-radius: 9px;
+    background: rgb(50, 0, 255, 0.3);
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.btn2:hover {
+    background: rgb(50, 0, 255, 0.7);
+    cursor: pointer;
+}
+
+
+.box2 h2{
+	text-align: left;
+}
+
+.social-medias{
+    background-color: rgb(0, 0, 0, 0.75);
+    height: 65vh;
+    width: 100%;
+    background-size: cover
+}
+.social-medias h1{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+.social-medias p{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: justify
+}
+.social-medias i{
+    color: floralwhite;
+    font-size: 45px;
+    margin-right: 50px;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    cursor: pointer;
+}
+
+.social-medias i:hover{
+    color:ghostwhite;
+}
+
+.txt1{
+	top: 0;
+	margin: 0;
+	position: relative;
+	margin-bottom: 200px;
+	border: orange solid 5px;
+	background-color: rgb(0, 0, 0, 0.7);
+	height: 40vh;
+}
+.txt1 h1{
+	margin: 0;
+}
+.txt1{
+	color: #fff;
+}
+
+.rhino-img{
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    width: 600px;
+    height: 350px;
+    animation: slide 30s infinite;
+    
+    
+}
+.rainforest-img{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    padding-bottom: 60%;
+    left: 10%;
+}
+
+.imgs1{
+    border: yellow 7px solid;
+    height: 800px;
+    background-color: lightgreen;
+}
+
+.vid1{
+    position: absolute;
+    top: 245%;
+    left: 5%;
+}
+/* MAKING THE MODAL BOX */
+#button {
+    margin: 0;
+    background:rgb(255, 165, 0);
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 28px;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+
+}
+
+
+
+.fa-paw{
+    color: green;
+    font-size: 100px;
+    transform: rotate(315deg);
+}
